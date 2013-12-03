@@ -1,0 +1,6 @@
+<resources>
+    <string name="text_tv_ac_phone_number">Phone Number</string>
+    <string name="text_tv_ac_display_name">Display Name</string>
+    <string name="text_btn_ac_add">Add</string>
+    <string name="text_alert_empty">Please enter your Number and Name</string>
+</resources>

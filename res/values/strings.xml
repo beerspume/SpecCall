@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpecCall</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help_phone_number">Plese enter phone number that want to call</string>
+    <string name="default_phone_number">68393690</string>
+    <string name="text_button_call">Specail Call</string>
+    <string name="phone_service_bgcolor">#E8F2FD</string>
+    <string name="phone_service_tip_text">This view will close after phone call</string>
+    <string name="text_ps_outgoing">outgoint:</string>
+    <string name="text_ps_incoming">incoming:</string>
+    <string name="text_button_add_contactor">Add Contactor</string>
+    <string name="text_main_device_info">Device Info</string>
+    <string name="title_activity_device_info">DeviceInfoActivity</string>
+    <string name="text_di_tv_phone_number">Phone Number</string>
+    <string name="text_di_tv_sim_sn">Sim Serial Number</string>
+    <string name="text_di_tv_sim_operator">Sim Operator</string>
+    <string name="text_di_tv_sim_operator_name">Sim Operator Name</string>
+    <string name="text_di_tv_sim_country_info">Sim Country Info</string>
+    <string name="text_di_tv_sim_state">Sim State</string>
+    <string name="text_di_tv_network_country_info">Network Country Info</string>
+    <string name="text_di_tv_device_id">Sim Device ID</string>
+    <string name="text_di_tv_device_sofrware_version">Sim Device software version</string>
+    <string name="text_di_tv_network_type">Sim Network Type</string>
+    <string name="text_di_tv_phone_type">Sim Phone Type</string>
+    <string name="text_di_tv_network_operator_name">Network Operator Name</string>
+    <string name="text_di_tv_network_operator">Network Operator</string>
+    <string name="text_di_tv_subscriber_id">Subscriber ID</string>
+    <string name="title_activity_lua">LuaActivity</string>
+    <string name="text_main_lua">Lua</string>
+    <string name="title_activity_voice_record_list">VoiceRecordListActivity</string>
+    <string name="text_main_voice_record_list">Voice Record List</string>
+    <string name="text_vrl_empty_record">Not found voice record file</string>
+    <string name="text_vrl_menu_clean_all">Delete All Files</string>
+    
+    
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    tools:context=".AddContactActivity"
+    >
+
+    <TextView
+        android:id="@+id/tv_ac_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_tv_ac_phone_number" />
+
+    <EditText
+        android:id="@+id/et_ac_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_ac_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_tv_ac_display_name" />
+
+    <EditText
+        android:id="@+id/et_ac_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_ac_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_btn_ac_add" />
+
+</LinearLayout>
