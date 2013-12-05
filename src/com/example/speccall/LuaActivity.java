@@ -23,7 +23,7 @@ public class LuaActivity extends Activity {
 		tv1.setText(Native.getString());
 
 		tv2=(TextView)this.findViewById(R.id.textView2);
-		tv2.setText(Lua.runTest(this)+"\n"+Lua.runTest2(this));
+		tv2.setText(Lua.runTest(this)+"\n"+Lua.runTest2(this)+"\n"+Lua.getTag(this));
 		
 		tv3=(TextView)this.findViewById(R.id.textView3);
 		tv3.setText(Util.getTempLuaScriptFolder().getAbsolutePath());

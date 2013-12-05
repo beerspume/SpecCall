@@ -1,5 +1,5 @@
-log_tag="test.lua";
 text='Phone number is ';
+temp="AAAAAAAAAAAA";
 
 setContext=function(c)
 	context=c;
@@ -29,5 +29,5 @@ end
 
 testSimInfo=function()
 	local tm=context:getTelephonyManager();
-	context:Log_i(log_tag,"Phone number:"..tm:getLine1Number());
+	context:Log_i("test.lua","Phone number:"..tm:getLine1Number());
 end
