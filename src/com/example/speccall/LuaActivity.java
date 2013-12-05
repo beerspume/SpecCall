@@ -1,6 +1,6 @@
 package com.example.speccall;
 
-import com.example.speccall.util.Lua;
+import com.example.speccall.lua.Lua;
 import com.example.speccall.util.Native;
 import com.example.speccall.util.Util;
 
@@ -23,7 +23,7 @@ public class LuaActivity extends Activity {
 		tv1.setText(Native.getString());
 
 		tv2=(TextView)this.findViewById(R.id.textView2);
-		tv2.setText(Lua.runTest(this));
+		tv2.setText(Lua.runTest(this)+"\n"+Lua.runTest2(this));
 		
 		tv3=(TextView)this.findViewById(R.id.textView3);
 		tv3.setText(Util.getTempLuaScriptFolder().getAbsolutePath());
